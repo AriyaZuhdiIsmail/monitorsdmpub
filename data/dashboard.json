@@ -1,0 +1,68 @@
+{
+    "schema_version": 1,
+    "status": "ready",
+    "generated_at": "2026-10-27T15:04:58+07:00",
+    "publication_scope": "aggregate_summary_only",
+    "privacy": {
+        "minimum_group_size": 5,
+        "individual_records_included": false,
+        "small_groups_suppressed": true
+    },
+    "metadata": {
+        "sotk_active": true,
+        "sotk_activated_at": "2026-10-23 15:44:35",
+        "employee_batch_active": true,
+        "employee_batch_activated_at": "2026-10-23 15:55:56"
+    },
+    "summary": {
+        "employee_total": 923,
+        "organization_level_distribution": [
+            {
+                "level": "Kantor Wilayah",
+                "count": 47
+            },
+            {
+                "level": "Kantor Area",
+                "count": 61
+            },
+            {
+                "level": "Cabang",
+                "count": 431
+            },
+            {
+                "level": "Tidak diketahui",
+                "count": 384
+            }
+        ],
+        "position_type_distribution": [
+            {
+                "type": "Definitif",
+                "count": 482
+            },
+            {
+                "type": "Non-definitif",
+                "count": 441
+            }
+        ],
+        "sotk_formasi_total": 1011,
+        "sotk_rows_total": 2342,
+        "sotk_by_level": [
+            {
+                "level": "Kantor Wilayah",
+                "row_count": 49,
+                "formasi_total": 54
+            },
+            {
+                "level": "Kantor Area",
+                "row_count": 45,
+                "formasi_total": 45
+            },
+            {
+                "level": "Cabang",
+                "row_count": 1784,
+                "formasi_total": 912
+            }
+        ]
+    },
+    "message": null
+}

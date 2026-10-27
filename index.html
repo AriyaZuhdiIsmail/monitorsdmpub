@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dashboard Monitoring SDM - versi publik baca-saja dengan statistik agregat yang disetujui.">
+  <meta name="referrer" content="no-referrer">
+  <title>Sistem Informasi Monitoring SDM Pegadaian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="static-overrides.css">
+</head>
+<body>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="app">
+  <aside>
+    <div class="brand"><img src="assets/pegadaian-logo.png" alt="Pegadaian"></div>
+    <nav id="nav" aria-label="Navigasi utama"></nav>
+    <div class="side-user">
+      <div class="av">P</div>
+      <div><b>Pengunjung</b><small>Mode baca saja</small></div>
+    </div>
+  </aside>
+  <main>
+    <header>
+      <div><div class="crumb" id="crumb">Wilayah Jakarta 1</div><h2 id="ttl">Dashboard</h2></div>
+      <div class="head-r"><span id="stat" class="pill">Memuat data publik…</span></div>
+    </header>
+    <div id="tabs" role="tablist" aria-label="Submenu"></div>
+    <div id="publication-alert" class="publication-alert" role="status"></div>
+    <div id="view" aria-live="polite"></div>
+    <footer class="public-footer">Versi publik · Baca saja · Rincian individu dan fungsi pengubahan data tidak disediakan.</footer>
+  </main>
+</div>
+<script src="lib/chart.umd.js"></script>
+<script src="static-app.js"></script>
+</body>
+</html>
